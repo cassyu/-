@@ -15,11 +15,18 @@
 版权声明：本文为博主原创文章，转载请附上博文链接！
 */
 #include "stdafx.h"
-
+#include "Framer.h"
 
 
 int main()
 {
+    // 记录已经探测状态及转移路径，初始化为-1
+    vector<int> path( 16, -1 );
+
+    FramerWorker fro;
+    fro.findRoute( path );
+    fro.displayRoute( path );
+    system( "pause" );
     return 0;
 }
 

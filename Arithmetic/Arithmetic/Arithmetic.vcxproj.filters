@@ -24,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Framer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +34,9 @@
     </ClCompile>
     <ClCompile Include="Arithmetic.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Framer.cpp">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
